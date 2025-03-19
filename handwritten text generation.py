@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-# Sample dataset (replace this with a real dataset)
+# Sample dataset (replace this with a real dataset
 data = {
     "customer_id": [1, 2, 3, 4, 5],
     "monthly_usage": [10, 50, 5, 70, 20],
