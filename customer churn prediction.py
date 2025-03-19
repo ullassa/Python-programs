@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-# Sample dataset (replace this with real handwritten text examples)
+# Sample dataset (replace this with real handwritten text examples
 text_data = "The quick brown fox jumps over the lazy dog. Handwritten text generation is interesting!"
 
 # Character set
