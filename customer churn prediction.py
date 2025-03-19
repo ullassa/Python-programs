@@ -9,7 +9,6 @@ chars = sorted(set(text_data))
 char_to_index = {c: i for i, c in enumerate(chars)}
 index_to_char = {i: c for i, c in enumerate(chars)}
 
-# Prepare input sequences
 sequence_length = 5
 data_sequences = []
 data_labels = []
