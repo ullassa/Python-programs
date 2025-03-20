@@ -5,8 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import accuracy_score
-
-# Sample dataset (replace this with a real dataset)
+#sample data
 data = {
     "plot": [
         "A spaceship crew explores an uncharted planet and encounters aliens.",
