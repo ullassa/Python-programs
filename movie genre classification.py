@@ -19,7 +19,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Text preprocessing and feature extraction
+# Text processing
 vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(df['plot'])
 y = df['genre']
@@ -34,7 +34,7 @@ classifier.fit(X_train, y_train)
 # Make predictions
 y_pred = classifier.predict(X_test)
 
-# Evaluate the model
+# Evaluation the model
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy:.2f}")
 
