@@ -4,7 +4,7 @@ import random
 
 text_data = "The quick brown fox jumps over the lazy dog. Handwritten text generation is interesting!"
 
-# Character set
+# Character sets
 chars = sorted(set(text_data))
 char_to_index = {c: i for i, c in enumerate(chars)}
 index_to_char = {i: c for i, c in enumerate(chars)}
