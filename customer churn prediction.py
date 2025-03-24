@@ -34,7 +34,7 @@ def generate_text(seed_text, next_chars=50):
         generated += index_to_char[idx]
     return generated
 
-# Interactive text generation
+# text generation
 while True:
     seed = input("Enter seed text (or type 'exit' to quit): ")
     if seed.lower() == 'exit':
