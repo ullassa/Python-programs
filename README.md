@@ -6,7 +6,7 @@ Customer Churn Prediction - Predicts whether a customer will churn based on thei
 
 Handwritten-Like Text Generation - Generates text based on a given seed using a Markov-based approach.
 
-1. Movie Genre Classification
+1. Movie Genre Classification 
 
 Description
 
@@ -31,8 +31,6 @@ python movie_genre_classifier.py
 Enter a plot description, and the model will output the predicted genre.
 
 2. Customer Churn Prediction
-
-Description
 
 This model predicts whether a customer will churn based on features like monthly usage, customer age, and subscription length. It uses a Random Forest Classifier.
 
